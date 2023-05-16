@@ -33,7 +33,7 @@
             // document.write(numbers);
             //document.write(numbers[3]);
 
-            // for-in/ for-of
+            
 /*
 
 i=0 *
@@ -120,6 +120,93 @@ i=4 # * # *
         //     }
         //     document.write("<br>");
         // }
+
+//===============================================================
+
+// for-of => values....
+
+// var ar = [3,9,4,85,76];
+    //    0 1 2 3  4
+
+//     document.write(ar[0]);
+//     document.write(ar[1]);
+//     document.write(ar[2]);    
+//     document.write(ar[3]);
+//     document.write(ar[4]);
+    
+
+
+// for(var i in ar){
+//     document.write(i + " " +ar[i]+"<br>");
+// }
+
+// for(var i of ar){
+//     document.write(i+" <br>");
+// }
+//===============================================================
+// for-in => keys....
+
+// var student = {
+//             firstName : "ABC", 
+//             lastName : "XYZ", 
+//             age : "17"
+//         };
+
+// for(var i in student){
+//     document.write(i+" "+student[i]+"<br>");
+// }
+
+/*
+    j j j j j
+    0 1 2 3 4
+i=0 * # * # *
+i=1 # * # *
+i=2 * # *
+i=3 # *
+i=4 *
+
+
+*/
+
+// for(var i=4; i>=0; i--){
+//     for(var j=4; j>=4-i; j--){
+//         if((i+j)%2==0){
+//                 document.write("* ");
+//         }else{
+//             document.write("# ");
+//         }
+//     }
+//     document.write("<br>");
+// }
+//========================================
+// var i=0;
+// while(i<=4){
+
+//     var j=0;
+//     while(j<=i){
+//         document.write("* ");
+//         j++;
+//     }
+//     document.write("<br>");
+//     i++;
+// }
+
+/*
+
+   *
+  * *
+ * * *
+* * * *
+ * * *
+  * *
+   *
+
+
+
+*/
+
+
+
 
 </script>
 </body>
